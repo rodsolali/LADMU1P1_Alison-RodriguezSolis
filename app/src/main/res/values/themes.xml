@@ -13,8 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    <style name="Theme.MaterialComponents.NoActionBar.Fullscreen"
-        parent="Theme.MaterialComponents.NoActionBar">
+
+    <style name="Theme.MaterialComponents.NoActionBar.Fullscreen" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:actionBarStyle">
             @style/Widget.Theme.MaterialComponents.NoActionBar.ActionBar.Fullscreen
         </item>
@@ -26,4 +26,13 @@
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
